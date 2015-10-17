@@ -1,0 +1,70 @@
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\Bin\Debug\Assets\ApplicationIcon.png
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\Bin\Debug\Project.dll
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\Bin\Debug\Project.pdb
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\Bin\Debug\resources.pri
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\Bin\Debug\AppxManifest.xml
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\Bin\Debug\Project.build.appxrecipe
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\Bin\Debug\Properties\WMAppManifest.xml
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\Bin\Debug\AppManifest.xaml
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\Bin\Debug\Project_Debug_AnyCPU.xap
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\App.g.cs
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\MainPage.g.cs
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\Project.g.resources
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\Project.Resources.AppResources.resources
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\Project.csproj.GenerateResource.Cache
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\Project.dll
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\Project.pdb
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\priconfig.xml
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\priconfig.xml.intermediate
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\layout.resfiles
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\layout.resfiles.intermediate
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\resources.resfiles
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\resources.resfiles.intermediate
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\pri.resfiles
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\pri.resfiles.intermediate
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\qualifiers.txt
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\qualifiers.txt.intermediate
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\ProjectArchitectures.txt
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\MDILProjectFiles.xml
+D:\school hogent\vakken\3de jaar\Windows 10\project\Project\Project\obj\Debug\XapCacheFile.xml
+C:\Users\wanne\Desktop\Project\Project\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\wanne\Desktop\Project\Project\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\wanne\Desktop\Project\Project\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\wanne\Desktop\Project\Project\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\wanne\Desktop\Project\Project\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\wanne\Desktop\Project\Project\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\wanne\Desktop\Project\Project\Bin\Debug\Project.dll
+C:\Users\wanne\Desktop\Project\Project\Bin\Debug\Project.pdb
+C:\Users\wanne\Desktop\Project\Project\Bin\Debug\resources.pri
+C:\Users\wanne\Desktop\Project\Project\Bin\Debug\AppxManifest.xml
+C:\Users\wanne\Desktop\Project\Project\Bin\Debug\Project.build.appxrecipe
+C:\Users\wanne\Desktop\Project\Project\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\wanne\Desktop\Project\Project\Bin\Debug\AppManifest.xaml
+C:\Users\wanne\Desktop\Project\Project\Bin\Debug\Project_Debug_AnyCPU.xap
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\App.g.cs
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\Project.g.resources
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\Project.Resources.AppResources.resources
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\Project.csproj.GenerateResource.Cache
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\Project.dll
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\Project.pdb
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\priconfig.xml
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\priconfig.xml.intermediate
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\layout.resfiles
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\layout.resfiles.intermediate
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\resources.resfiles
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\resources.resfiles.intermediate
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\pri.resfiles
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\pri.resfiles.intermediate
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\qualifiers.txt
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\qualifiers.txt.intermediate
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\ProjectArchitectures.txt
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\MDILProjectFiles.xml
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\XapCacheFile.xml
+C:\Users\wanne\Desktop\Project\Project\obj\Debug\Views\Main.g.cs
