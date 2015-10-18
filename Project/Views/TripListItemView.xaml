@@ -9,9 +9,9 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     d:DesignHeight="50" d:DesignWidth="480">
 
-    <Grid x:Name="LayoutRoot" Background="{StaticResource PhoneChromeBrush}" Margin="0,5,5,5">
+    <Grid x:Name="LayoutRoot" Margin="0,5,5,5">
        
-        <CheckBox x:Name="checkBox" Content="CheckBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="480" Checked="checkBox_Checked" Unchecked="checkBox_Unchecked"/>
+        <CheckBox x:Name="chItem" Content="CheckBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="480" Checked="checkBox_Checked" Unchecked="checkBox_Unchecked"/>
 
     </Grid>
 </UserControl>

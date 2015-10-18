@@ -12,15 +12,19 @@ namespace Project.Views
 {
     public partial class TripView : UserControl
     {
+        private Models.Trip Trip;
         public TripView(Models.Trip trip)
         {
             InitializeComponent();
-
+            Trip = trip;
             tripName.Text = trip.Name;
             tripDate.Text = trip.Deadline.ToString();
             packingProg.Value = 60;
         }
          
-        
+        public Models.Trip getTrip()
+        {
+            return Trip;
+        }
     }
 }

@@ -15,10 +15,13 @@ namespace Project.Views
         public TripDetailView()
         {
             InitializeComponent();
-            itemList.Items.Add(new TripListItemView());
-            itemList.Items.Add(new TripListItemView());
-            itemList.Items.Add(new TripListItemView());
 
+            Models.Trip trip = PhoneApplicationService.Current.State["trip"] as Models.Trip;
+            tripName.Text = trip.Name;
+            foreach (Models.Item item in trip.Items)
+            {
+                itemList.Items.Add(new TripListItemView(item));
+            }
         }
     }
 }

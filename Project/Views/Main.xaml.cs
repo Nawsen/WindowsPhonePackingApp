@@ -29,7 +29,13 @@ namespace Project.Views
 
         private void tripList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Views/TripDetailView.xaml", UriKind.Relative));
+            if(tripList.SelectedIndex != -1)
+            {
+                TripView tripView = (TripView)tripList.SelectedItem;
+                PhoneApplicationService.Current.State["trip"] = tripView.getTrip();
+                NavigationService.Navigate(new Uri("/Views/TripDetailView.xaml", UriKind.Relative));
+            }
+            
         }
     }
 }
