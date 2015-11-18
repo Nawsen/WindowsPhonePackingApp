@@ -20,6 +20,7 @@ namespace Project.Models
             Items.Add(new Item("surfplank"));
             Items.Add(new Item("snorkel"));
             Items.Add(new Item("duikbril"));
+            Items.Add(new Item("kloni"));
         }
     }
 }
