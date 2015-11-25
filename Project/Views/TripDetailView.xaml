@@ -23,15 +23,18 @@
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
             <TextBlock Text="TRAVELLER APP" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="tripName" Text="Trip Name" Margin="4,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock x:Name="tripName" Text="Trip Name" Margin="4,-4,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
-
+        <StackPanel x:Name="text">
+            
+        </StackPanel>
+        
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="content" RenderTransformOrigin="0.475,0.522" Grid.RowSpan="2" Margin="0">
             <ListBox x:Name="itemList" Margin="0,141,15,5">
-                
             </ListBox>
         </Grid>
+        
     </Grid>
 
 </phone:PhoneApplicationPage>

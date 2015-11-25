@@ -48,7 +48,7 @@
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value="WindowsPhone,Version=v8.1" />
     <build:Item Name="VisualStudio" Version="14.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2015" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2015" />
     <build:Item Name="OperatingSystem" Version="10.0.10240.16384 (th1.150709-1700)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.23311.4" />
     <build:Item Name="ProjectGUID" Value="{E8BB14F2-B4D2-4845-8833-3FC4036B981A}" />

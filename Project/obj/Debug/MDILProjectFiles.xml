@@ -5,6 +5,44 @@
     <File>Project.dll</File>
     <File>Assets\AlignmentGrid.png</File>
     <File>Assets\BadgeLogo.png</File>
+    <File>Assets\Images\add.png</File>
+    <File>Assets\Images\back.png</File>
+    <File>Assets\Images\basecircle.png</File>
+    <File>Assets\Images\cancel.png</File>
+    <File>Assets\Images\check.png</File>
+    <File>Assets\Images\close.png</File>
+    <File>Assets\Images\DarkIcons.dll</File>
+    <File>Assets\Images\delete.png</File>
+    <File>Assets\Images\download.png</File>
+    <File>Assets\Images\edit.png</File>
+    <File>Assets\Images\favs.addto.png</File>
+    <File>Assets\Images\favs.png</File>
+    <File>Assets\Images\feature.alarm.png</File>
+    <File>Assets\Images\feature.calendar.png</File>
+    <File>Assets\Images\feature.camera.png</File>
+    <File>Assets\Images\feature.email.png</File>
+    <File>Assets\Images\feature.phone.png</File>
+    <File>Assets\Images\feature.search.png</File>
+    <File>Assets\Images\feature.settings.png</File>
+    <File>Assets\Images\feature.video.png</File>
+    <File>Assets\Images\folder.png</File>
+    <File>Assets\Images\like.png</File>
+    <File>Assets\Images\microphone.png</File>
+    <File>Assets\Images\minus.png</File>
+    <File>Assets\Images\new.png</File>
+    <File>Assets\Images\next.png</File>
+    <File>Assets\Images\overflowdots.png</File>
+    <File>Assets\Images\questionmark.png</File>
+    <File>Assets\Images\refresh.png</File>
+    <File>Assets\Images\save.png</File>
+    <File>Assets\Images\share.png</File>
+    <File>Assets\Images\stop.png</File>
+    <File>Assets\Images\sync.png</File>
+    <File>Assets\Images\transport.ff.png</File>
+    <File>Assets\Images\transport.pause.png</File>
+    <File>Assets\Images\transport.play.png</File>
+    <File>Assets\Images\transport.rew.png</File>
+    <File>Assets\Images\upload.png</File>
     <File>Assets\Logo.png</File>
     <File>Assets\SplashScreen.png</File>
     <File>Assets\SquareTile150x150.png</File>

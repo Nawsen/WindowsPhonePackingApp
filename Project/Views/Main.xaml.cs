@@ -25,6 +25,25 @@ namespace Project.Views
             tripList.Items.Add(new TripView(new Models.Trip("Naar Qali", new DateTime(2056, 8, 19))));
             tripList.Items.Add(new TripView(new Models.Trip("Naar Fali", new DateTime(2026, 9, 14))));
             tripList.Items.Add(new TripView(new Models.Trip("Nog eens naar Mali", new DateTime(2015, 8, 16))));
+
+            ApplicationBar = new ApplicationBar();
+
+            ApplicationBar.Mode = ApplicationBarMode.Default;
+            ApplicationBar.Opacity = 1.0;
+            ApplicationBar.IsVisible = true;
+            ApplicationBar.IsMenuEnabled = true;
+
+            ApplicationBarIconButton addTrip = new ApplicationBarIconButton();
+            addTrip.IconUri = new Uri("/Assets/Images/add.png", UriKind.Relative);
+            addTrip.Text = "Add Trip";
+            ApplicationBar.Buttons.Add(addTrip);
+            addTrip.Click += new EventHandler(addTrip_Click);
+
+        }
+        private void addTrip_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("add button works babyyy!");
+
         }
 
         private void tripList_SelectionChanged(object sender, SelectionChangedEventArgs e)
