@@ -1,6 +1,6 @@
-﻿<xapCache source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\Project_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="25/11/2015 10:55:04">
-  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="25/11/2015 8:48:06" />
-  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\obj\Debug\Project.dll" archivePath="Project.dll" lastWriteTime="25/11/2015 10:55:03" />
+﻿<xapCache source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\Project_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2/12/2015 12:07:06">
+  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="2/12/2015 12:07:04" />
+  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\obj\Debug\Project.dll" archivePath="Project.dll" lastWriteTime="2/12/2015 12:07:04" />
   <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="18/11/2015 12:30:50" />
   <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="18/11/2015 12:30:50" />
   <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\add.png" archivePath="Assets\Images\add.png" lastWriteTime="25/11/2015 8:46:17" />
@@ -51,16 +51,17 @@
   <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="18/11/2015 12:30:50" />
   <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="18/11/2015 12:30:50" />
   <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="18/11/2015 12:30:50" />
-  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="25/11/2015 8:23:33" />
+  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="25/11/2015 11:36:55" />
+  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="25/11/2015 11:36:55" />
+  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="25/11/2015 11:36:55" />
+  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="25/11/2015 11:36:55" />
+  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="25/11/2015 11:36:55" />
+  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="25/11/2015 11:36:55" />
+  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2/12/2015 12:04:37" />
   <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="18/11/2015 12:30:50" />
-  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="18/11/2015 12:30:50" />
   <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="18/11/2015 12:30:50" />
-  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="18/11/2015 12:30:50" />
-  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="18/11/2015 12:30:50" />
-  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="18/11/2015 12:30:51" />
-  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="18/11/2015 12:30:50" />
-  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="18/11/2015 12:30:50" />
-  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="18/11/2015 12:30:51" />
-  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="25/11/2015 10:55:04" />
-  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="25/11/2015 8:48:07" />
+  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="25/11/2015 11:36:52" />
+  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2/12/2015 12:04:37" />
+  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="2/12/2015 12:07:05" />
+  <file source="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="2/12/2015 12:07:04" />
 </xapCache>

@@ -3,15 +3,23 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
     mc:Ignorable="d"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     d:DesignHeight="50" d:DesignWidth="480">
 
-    <Grid x:Name="LayoutRoot" Margin="0,5,5,5">
-       
-        <CheckBox x:Name="chItem" Content="CheckBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="480" Checked="checkBox_Checked" Unchecked="checkBox_Unchecked"/>
+    <Grid x:Name="LayoutRoot" Margin="0,5,5,5" RenderTransformOrigin="0,1">
+        <StackPanel x:Name="text">
 
+        </StackPanel>
+        <CheckBox x:Name="chItem" Content="CheckBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="480" Checked="checkBox_Checked" Unchecked="checkBox_Unchecked"/>
+        <toolkit:ContextMenuService.ContextMenu>
+            <toolkit:ContextMenu>
+                <toolkit:MenuItem Header="Edit" Click="edit" />
+                <toolkit:MenuItem Header="Delete" Click="delete"/>
+            </toolkit:ContextMenu>
+        </toolkit:ContextMenuService.ContextMenu>
     </Grid>
 </UserControl>

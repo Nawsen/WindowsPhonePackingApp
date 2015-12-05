@@ -6,6 +6,7 @@
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
@@ -31,9 +32,10 @@
         
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="content" RenderTransformOrigin="0.475,0.522" Grid.RowSpan="2" Margin="0">
-            <ListBox x:Name="itemList" Margin="0,141,15,5">
-            </ListBox>
+            <ListBox x:Name="itemList" Margin="0,141,15,5"/>
+            
         </Grid>
+            
         
     </Grid>
 

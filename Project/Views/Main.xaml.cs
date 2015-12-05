@@ -42,7 +42,7 @@ namespace Project.Views
         }
         private void addTrip_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("add button works babyyy!");
+            NavigationService.Navigate(new Uri("/Views/AddTrip.xaml", UriKind.Relative));
 
         }
 
