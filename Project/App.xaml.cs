@@ -6,6 +6,8 @@ using System.Windows.Markup;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+//using Microsoft.WindowsAzure.Mobile.Service;
+using Microsoft.WindowsAzure.MobileServices;
 using Project.Resources;
 
 namespace Project
@@ -17,7 +19,16 @@ namespace Project
         /// </summary>
         /// <returns>The root frame of the Phone Application.</returns>
         public static PhoneApplicationFrame RootFrame { get; private set; }
-
+        //public static MobileServiceClient MobileService = new MobileServiceClient(
+        //  "http://localhost:59740"
+        //);
+        //Use this constructor instead after publishing to the cloud
+        public static MobileServiceClient MobileService = new MobileServiceClient(
+              "https://windowsproject.azure-mobile.net/",
+              "AzmfbTzGjppxkZeCMuuGlRfrKRmpLK54"
+        );
+        // Define a member variable for storing the signed-in user. 
+       
         /// <summary>
         /// Constructor for the Application object.
         /// </summary>
@@ -56,7 +67,7 @@ namespace Project
             }
 
         }
-
+        
         // Code to execute when a contract activation such as a file open or save picker returns 
         // with the picked file or other return values
         private void Application_ContractActivated(object sender, Windows.ApplicationModel.Activation.IActivatedEventArgs e)
@@ -229,5 +240,6 @@ namespace Project
                 throw;
             }
         }
+
     }
 }

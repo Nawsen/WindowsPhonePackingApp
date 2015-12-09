@@ -1,356 +1,404 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-SNBTC0R</Machine>
-    <WindowsUser>wannes</WindowsUser>
+    <Machine>MATHIAS-PC</Machine>
+    <WindowsUser>Mathias</WindowsUser>
     <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
     <TargetOsVersion>6.3</TargetOsVersion>
     <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>e8bb14f2-b4d2-4845-8833-3fc4036b981a</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\Project.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Bin\Debug\Project.dll">
       <PackagePath>Project.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll">
+      <PackagePath>EntityFramework.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll">
       <PackagePath>Microsoft.Phone.Controls.Toolkit.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WindowsAzure.MobileServices.1.3.2\lib\wp8\Microsoft.WindowsAzure.Mobile.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WindowsAzure.MobileServices.1.3.2\lib\wp8\Microsoft.WindowsAzure.Mobile.Ext.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WindowsAzure.MobileServices.1.3.2\lib\wp8\Microsoft.WindowsAzure.Mobile.UI.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.UI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Newtonsoft.Json.6.0.4\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Microsoft.Net.Http.2.2.28\lib\sl4-windowsphone71\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Microsoft.Net.Http.2.2.28\lib\sl4-windowsphone71\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Microsoft.Net.Http.2.2.28\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\AlignmentGrid.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.xml">
+      <PackagePath>EntityFramework.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WindowsAzure.MobileServices.1.3.2\lib\wp8\Microsoft.WindowsAzure.Mobile.xml">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WindowsAzure.MobileServices.1.3.2\lib\wp8\Microsoft.WindowsAzure.Mobile.Ext.xml">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WindowsAzure.MobileServices.1.3.2\lib\wp8\Microsoft.WindowsAzure.Mobile.UI.xml">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.UI.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Newtonsoft.Json.6.0.4\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.xml">
+      <PackagePath>Newtonsoft.Json.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Microsoft.Net.Http.2.2.28\lib\sl4-windowsphone71\System.Net.Http.xml">
+      <PackagePath>System.Net.Http.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Microsoft.Net.Http.2.2.28\lib\sl4-windowsphone71\System.Net.Http.Extensions.xml">
+      <PackagePath>System.Net.Http.Extensions.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Microsoft.Net.Http.2.2.28\lib\sl4-windowsphone71\System.Net.Http.Primitives.xml">
+      <PackagePath>System.Net.Http.Primitives.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\AlignmentGrid.png">
       <PackagePath>Assets\AlignmentGrid.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\ApplicationIcon.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\ApplicationIcon.png">
       <PackagePath>Assets\ApplicationIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\BadgeLogo.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\BadgeLogo.png">
       <PackagePath>Assets\BadgeLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\add.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\add.png">
       <PackagePath>Assets\Images\add.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\back.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\back.png">
       <PackagePath>Assets\Images\back.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\basecircle.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\basecircle.png">
       <PackagePath>Assets\Images\basecircle.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\cancel.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\cancel.png">
       <PackagePath>Assets\Images\cancel.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\check.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\check.png">
       <PackagePath>Assets\Images\check.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\close.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\close.png">
       <PackagePath>Assets\Images\close.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\delete.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\delete.png">
       <PackagePath>Assets\Images\delete.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\download.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\download.png">
       <PackagePath>Assets\Images\download.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\edit.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\edit.png">
       <PackagePath>Assets\Images\edit.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\favs.addto.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\favs.addto.png">
       <PackagePath>Assets\Images\favs.addto.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\favs.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\favs.png">
       <PackagePath>Assets\Images\favs.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\feature.alarm.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\feature.alarm.png">
       <PackagePath>Assets\Images\feature.alarm.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\feature.calendar.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\feature.calendar.png">
       <PackagePath>Assets\Images\feature.calendar.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\feature.camera.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\feature.camera.png">
       <PackagePath>Assets\Images\feature.camera.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\feature.email.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\feature.email.png">
       <PackagePath>Assets\Images\feature.email.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\feature.phone.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\feature.phone.png">
       <PackagePath>Assets\Images\feature.phone.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\feature.search.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\feature.search.png">
       <PackagePath>Assets\Images\feature.search.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\feature.settings.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\feature.settings.png">
       <PackagePath>Assets\Images\feature.settings.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\feature.video.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\feature.video.png">
       <PackagePath>Assets\Images\feature.video.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\folder.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\folder.png">
       <PackagePath>Assets\Images\folder.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\like.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\like.png">
       <PackagePath>Assets\Images\like.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\microphone.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\microphone.png">
       <PackagePath>Assets\Images\microphone.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\minus.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\minus.png">
       <PackagePath>Assets\Images\minus.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\new.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\new.png">
       <PackagePath>Assets\Images\new.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\next.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\next.png">
       <PackagePath>Assets\Images\next.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\overflowdots.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\overflowdots.png">
       <PackagePath>Assets\Images\overflowdots.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\questionmark.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\questionmark.png">
       <PackagePath>Assets\Images\questionmark.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\refresh.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\refresh.png">
       <PackagePath>Assets\Images\refresh.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\save.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\save.png">
       <PackagePath>Assets\Images\save.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\share.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\share.png">
       <PackagePath>Assets\Images\share.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\stop.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\stop.png">
       <PackagePath>Assets\Images\stop.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\sync.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\sync.png">
       <PackagePath>Assets\Images\sync.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\transport.ff.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\transport.ff.png">
       <PackagePath>Assets\Images\transport.ff.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\transport.pause.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\transport.pause.png">
       <PackagePath>Assets\Images\transport.pause.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\transport.play.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\transport.play.png">
       <PackagePath>Assets\Images\transport.play.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\transport.rew.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\transport.rew.png">
       <PackagePath>Assets\Images\transport.rew.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\upload.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\upload.png">
       <PackagePath>Assets\Images\upload.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\SquareTile150x150.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\SquareTile150x150.png">
       <PackagePath>Assets\SquareTile150x150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\SquareTile71x71.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\SquareTile71x71.png">
       <PackagePath>Assets\SquareTile71x71.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\WideLogo.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\WideLogo.png">
       <PackagePath>Assets\WideLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Tiles\FlipCycleTileLarge.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Tiles\FlipCycleTileLarge.png">
       <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Tiles\FlipCycleTileMedium.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Tiles\FlipCycleTileMedium.png">
       <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Tiles\FlipCycleTileSmall.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Tiles\FlipCycleTileSmall.png">
       <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Tiles\IconicTileMediumLarge.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Tiles\IconicTileMediumLarge.png">
       <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Tiles\IconicTileSmall.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Tiles\IconicTileSmall.png">
       <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Toolkit.Content\ApplicationBar.Add.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Toolkit.Content\ApplicationBar.Add.png">
       <PackagePath>Toolkit.Content\ApplicationBar.Add.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Toolkit.Content\ApplicationBar.Cancel.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Toolkit.Content\ApplicationBar.Cancel.png">
       <PackagePath>Toolkit.Content\ApplicationBar.Cancel.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Toolkit.Content\ApplicationBar.Check.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Toolkit.Content\ApplicationBar.Check.png">
       <PackagePath>Toolkit.Content\ApplicationBar.Check.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Toolkit.Content\ApplicationBar.Delete.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Toolkit.Content\ApplicationBar.Delete.png">
       <PackagePath>Toolkit.Content\ApplicationBar.Delete.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Toolkit.Content\ApplicationBar.Select.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Toolkit.Content\ApplicationBar.Select.png">
       <PackagePath>Toolkit.Content\ApplicationBar.Select.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Assets\Images\DarkIcons.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Images\DarkIcons.dll">
       <PackagePath>Assets\Images\DarkIcons.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\README_FIRST.txt">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\README_FIRST.txt">
       <PackagePath>README_FIRST.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\Bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

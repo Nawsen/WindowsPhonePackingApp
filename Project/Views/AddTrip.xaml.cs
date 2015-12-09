@@ -38,7 +38,7 @@ namespace Project.Views
             DateTime date = (DateTime) myDate.Value;
             TextBox dest = destination;
 
-            PhoneApplicationService.Current.State["deTripadd"] = new Trip(dest.Text, date);
+            //PhoneApplicationService.Current.State["deTripadd"] = new Trip(dest.Text, date);
             NavigationService.Navigate(new Uri("/Views/Main.xaml", UriKind.Relative));
             
 

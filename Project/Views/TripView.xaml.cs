@@ -20,7 +20,7 @@ namespace Project.Views
             InitializeComponent();
             Trip = trip;
             tripName.Text = trip.Name;
-            tripDate.Text = trip.Deadline.ToString();
+            //tripDate.Text = trip.Deadline.ToString();
             packingProg.Value = 60;
         }
          

@@ -1,1 +1,1 @@
-C:\Users\wanne\Desktop\WindowsPhonePackingApp\Project\WindowsPhonePackingApp.csproj;neutral
+C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\WindowsPhonePackingApp.csproj;neutral

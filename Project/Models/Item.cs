@@ -8,10 +8,11 @@ namespace Project.Models
 {
    public class Item
     {
-        public String Name { get; set; }
+        public string Id { get; set; }
+        public string Name { get; set; }
         public Boolean Ready { get; set; }
-
-        public Item(String name)
+        public Item() { }
+        public Item(string name)
         {
             Name = name;
             Ready = false;
