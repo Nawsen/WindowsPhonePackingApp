@@ -3,6 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
     mc:Ignorable="d"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
@@ -14,6 +15,11 @@
         <ProgressBar x:Name="packingProg" HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="365" Margin="105,80,0,0"/>
         <TextBlock x:Name="tripName" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Margin="120,10,0,0" Height="38" Width="212" FontSize="24"/>
         <TextBlock x:Name="tripDate" HorizontalAlignment="Left" Margin="360,53,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="97" FontSize="18.667" Height="22"/>
-
+        <toolkit:ContextMenuService.ContextMenu>
+            <toolkit:ContextMenu>
+                <toolkit:MenuItem Header="Edit" Click="edit" />
+                <toolkit:MenuItem Header="Delete" Click="delete"/>
+            </toolkit:ContextMenu>
+        </toolkit:ContextMenuService.ContextMenu>
     </Grid>
 </UserControl>

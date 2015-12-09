@@ -29,9 +29,9 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="30,0,12,0">
             <Image x:Name="tripImg" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="150" Source="/Assets/Logo.png"/>
-            <TextBox x:Name="destination" HorizontalAlignment="Left" Height="72" Margin="-10,215,0,0" VerticalAlignment="Top" Width="438" Tag="Trol" KeyDown="keypress"/>
+            <TextBox x:Name="destination" KeyUp="Destination_OnKeyUp"  HorizontalAlignment="Left" Height="72" Margin="-10,215,0,0" VerticalAlignment="Top" Width="438" Tag="Trol"/>
             <TextBlock HorizontalAlignment="Left" Margin="0,197,0,0" TextWrapping="Wrap" Text="Destination" VerticalAlignment="Top"/>
-            <toolkit:DatePicker Margin="-10,308,10,-38"/>
+            <toolkit:DatePicker x:Name="myDate" Margin="-10,308,10,-38"/>
             <TextBlock HorizontalAlignment="Left" Margin="0,292,0,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top"/>
         </Grid>
     </Grid>

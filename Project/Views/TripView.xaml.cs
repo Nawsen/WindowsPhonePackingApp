@@ -7,6 +7,8 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using Microsoft.Phone.Wallet;
+using Project.Models;
 
 namespace Project.Views
 {
@@ -25,6 +27,16 @@ namespace Project.Views
         public Models.Trip getTrip()
         {
             return Trip;
+        }
+
+        private void delete(object sender, RoutedEventArgs e)
+        {
+            PhoneApplicationService.Current.State["deTripremove"] = this.Trip;
+        }
+
+        private void edit(object sender, RoutedEventArgs e)
+        {
+            PhoneApplicationService.Current.State["deTripedit"] = this.Trip;
         }
     }
 }

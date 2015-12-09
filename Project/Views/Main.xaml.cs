@@ -7,6 +7,7 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using Project.Models;
 
 namespace Project.Views
 {
@@ -38,7 +39,6 @@ namespace Project.Views
             addTrip.Text = "Add Trip";
             ApplicationBar.Buttons.Add(addTrip);
             addTrip.Click += new EventHandler(addTrip_Click);
-
         }
         private void addTrip_Click(object sender, EventArgs e)
         {
@@ -55,6 +55,34 @@ namespace Project.Views
                 NavigationService.Navigate(new Uri("/Views/TripDetailView.xaml", UriKind.Relative));
             }
             
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            
+            base.OnNavigatedTo(e);
+            Trip t;
+
+            if (PhoneApplicationService.Current.State.ContainsKey("deTripadd"))
+            {
+                t = (Trip)PhoneApplicationService.Current.State["deTripadd"];
+                tripList.Items.Add(new TripView(t));
+            }            //if (PhoneApplicationService.Current.State.ContainsKey("deTripedit"))
+            //{
+            //    t = (Trip)PhoneApplicationService.Current.State["deTripedit"];
+            //    tripList.Items.Remove(t);
+            //    tripList.Items.Add(new TripView(t));
+            //}
+            //if (PhoneApplicationService.Current.State.ContainsKey("deTripremove"))
+            //{
+            //    t = (Trip)PhoneApplicationService.Current.State["deTripremove"];
+            //    tripList.Items.Remove(t);
+            //}
+        }
+
+        public void remove(TripView item)
+        {
+            tripList.Items.Remove(item);
         }
     }
 }

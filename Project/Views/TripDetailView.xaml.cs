@@ -87,6 +87,7 @@ namespace Project.Views
         }
         private void addItem_Click(object sender, EventArgs e)
         {
+            
             text.Children.Remove(TextBoxTop);
             ApplicationBar.IsVisible = false;
 
@@ -98,7 +99,7 @@ namespace Project.Views
             text.Children.Add(TextBoxTop);
 
             TextBoxTop.Focus();
-            
+
         }
 
         private void input_KeyDownAdd(object sender, KeyEventArgs e)
@@ -111,6 +112,7 @@ namespace Project.Views
                 itemList.Items.Add(new TripListItemView(this, new Models.Item(t.Text)));
             }
         }
+
         private void input_KeyDownEdit(object sender, KeyEventArgs e)
         {
             TextBox t = (TextBox)sender;
