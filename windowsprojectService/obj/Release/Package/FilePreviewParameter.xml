@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="mobile$windowsproject" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Mathias\\Documents\\Windows\ Phone\\WindowsPhonePackingApp\\windowsprojectService\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Mathias\\Documents\\Windows\ Phone\\WindowsPhonePackingApp\\windowsprojectService\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="MS_NotificationHubConnectionString-Web.config Connection String" description="" value="Endpoint=sb://[your namespace].servicebus.windows.net;SharedSecretIssuer=owner;SharedSecretValue=[your secret]" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Mathias\\Documents\\Windows\ Phone\\WindowsPhonePackingApp\\windowsprojectService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MS_NotificationHubConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="MS_TableConnectionString-Web.config Connection String" description="MS_TableConnectionString Connection String used in web.config by the application to access the database." value="Data Source=(localdb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-windowsprojectService-20151113123200.mdf;Initial Catalog=aspnet-windowsprojectService-20151113123200;Integrated Security=True;MultipleActiveResultSets=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Mathias\\Documents\\Windows\ Phone\\WindowsPhonePackingApp\\windowsprojectService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MS_TableConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

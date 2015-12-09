@@ -1,6 +1,6 @@
-﻿<xapCache source="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Bin\Debug\Project_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="09-Dec-15 09:23:24">
-  <file source="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="09-Dec-15 09:23:22" />
-  <file source="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\obj\Debug\Project.dll" archivePath="Project.dll" lastWriteTime="09-Dec-15 09:23:21" />
+﻿<xapCache source="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Bin\Debug\Project_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="09-Dec-15 11:37:06">
+  <file source="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="09-Dec-15 11:37:03" />
+  <file source="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\obj\Debug\Project.dll" archivePath="Project.dll" lastWriteTime="09-Dec-15 11:37:02" />
   <file source="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="25-Nov-15 08:32:24" />
   <file source="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="25-Nov-15 08:32:24" />
   <file source="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="25-Nov-15 08:32:24" />
@@ -33,6 +33,6 @@
   <file source="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Microsoft.Net.Http.2.2.28\lib\sl4-windowsphone71\System.Net.Http.Extensions.xml" archivePath="System.Net.Http.Extensions.xml" lastWriteTime="25-Nov-15 08:32:29" />
   <file source="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Microsoft.Net.Http.2.2.28\lib\sl4-windowsphone71\System.Net.Http.Primitives.xml" archivePath="System.Net.Http.Primitives.xml" lastWriteTime="25-Nov-15 08:32:29" />
   <file source="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="25-Nov-15 09:59:57" />
-  <file source="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="09-Dec-15 09:23:22" />
-  <file source="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="02-Dec-15 09:00:03" />
+  <file source="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="09-Dec-15 11:37:04" />
+  <file source="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="09-Dec-15 11:36:00" />
 </xapCache>

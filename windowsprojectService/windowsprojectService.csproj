@@ -209,6 +209,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\ItemController.cs" />
     <Compile Include="Controllers\TripsssController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="DataObjects\Item.cs" />
     <Compile Include="DataObjects\Tripsss.cs" />
     <Compile Include="DataObjects\User.cs" />

@@ -32,6 +32,8 @@ namespace windowsprojectService.Models
                     "ServiceTableColumn", (property, attributes) => attributes.Single().ColumnType.ToString()));
         }
 
+        public System.Data.Entity.DbSet<windowsprojectService.DataObjects.User> Users { get; set; }
+
         //public System.Data.Entity.DbSet<windowsprojectService.DataObjects.Tripsss> Tripssses { get; set; }
     }
 
