@@ -34,15 +34,14 @@ namespace windowsprojectService
     {
         protected override void Seed(windowsprojectContext context)
         {
-            List<TodoItem> todoItems = new List<TodoItem>
-            {
-                new TodoItem { Id = Guid.NewGuid().ToString(), Text = "First item", Complete = false },
-                new TodoItem { Id = Guid.NewGuid().ToString(), Text = "Second item", Complete = false },
+            List<Item> Items = new List<Item>
+            {   
+                new Item { Id = Guid.NewGuid().ToString(), Name = "Firsthgfgfvbhghf item", Done = true },
             };
 
-            foreach (TodoItem todoItem in todoItems)
+            foreach (Item Item in Items)
             {
-                context.Set<TodoItem>().Add(todoItem);
+                context.Set<Item>().Add(Item);
             }
 
             base.Seed(context);

@@ -1,74 +1,122 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>WERKSTATION1</Machine>
-    <WindowsUser>jonas</WindowsUser>
+    <Machine>MATHIAS-PC</Machine>
+    <WindowsUser>Mathias</WindowsUser>
     <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
     <TargetOsVersion>6.3</TargetOsVersion>
     <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>e8bb14f2-b4d2-4845-8833-3fc4036b981a</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\Bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\Bin\Debug\Project.dll">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Bin\Debug\Project.dll">
       <PackagePath>Project.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\Assets\AlignmentGrid.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll">
+      <PackagePath>EntityFramework.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WindowsAzure.MobileServices.1.3.2\lib\wp8\Microsoft.WindowsAzure.Mobile.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WindowsAzure.MobileServices.1.3.2\lib\wp8\Microsoft.WindowsAzure.Mobile.Ext.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WindowsAzure.MobileServices.1.3.2\lib\wp8\Microsoft.WindowsAzure.Mobile.UI.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.UI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Newtonsoft.Json.6.0.4\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Microsoft.Net.Http.2.2.28\lib\sl4-windowsphone71\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Microsoft.Net.Http.2.2.28\lib\sl4-windowsphone71\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Microsoft.Net.Http.2.2.28\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.xml">
+      <PackagePath>EntityFramework.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WindowsAzure.MobileServices.1.3.2\lib\wp8\Microsoft.WindowsAzure.Mobile.xml">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WindowsAzure.MobileServices.1.3.2\lib\wp8\Microsoft.WindowsAzure.Mobile.Ext.xml">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\WindowsAzure.MobileServices.1.3.2\lib\wp8\Microsoft.WindowsAzure.Mobile.UI.xml">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.UI.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Newtonsoft.Json.6.0.4\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.xml">
+      <PackagePath>Newtonsoft.Json.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Microsoft.Net.Http.2.2.28\lib\sl4-windowsphone71\System.Net.Http.xml">
+      <PackagePath>System.Net.Http.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Microsoft.Net.Http.2.2.28\lib\sl4-windowsphone71\System.Net.Http.Extensions.xml">
+      <PackagePath>System.Net.Http.Extensions.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\packages\Microsoft.Net.Http.2.2.28\lib\sl4-windowsphone71\System.Net.Http.Primitives.xml">
+      <PackagePath>System.Net.Http.Primitives.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\AlignmentGrid.png">
       <PackagePath>Assets\AlignmentGrid.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\Assets\ApplicationIcon.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\ApplicationIcon.png">
       <PackagePath>Assets\ApplicationIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\Assets\BadgeLogo.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\BadgeLogo.png">
       <PackagePath>Assets\BadgeLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\Assets\SquareTile150x150.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\SquareTile150x150.png">
       <PackagePath>Assets\SquareTile150x150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\Assets\SquareTile71x71.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\SquareTile71x71.png">
       <PackagePath>Assets\SquareTile71x71.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\Assets\WideLogo.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\WideLogo.png">
       <PackagePath>Assets\WideLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\Assets\Tiles\FlipCycleTileLarge.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Tiles\FlipCycleTileLarge.png">
       <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\Assets\Tiles\FlipCycleTileMedium.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Tiles\FlipCycleTileMedium.png">
       <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\Assets\Tiles\FlipCycleTileSmall.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Tiles\FlipCycleTileSmall.png">
       <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\Assets\Tiles\IconicTileMediumLarge.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Tiles\IconicTileMediumLarge.png">
       <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\Assets\Tiles\IconicTileSmall.png">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Assets\Tiles\IconicTileSmall.png">
       <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonas\Documents\GitHub\WindowsPhonePackingApp\Project\Bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
