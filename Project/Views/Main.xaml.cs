@@ -29,35 +29,14 @@ namespace Project.Views
 
         // Define a method that performs the authentication process
         // using a Facebook sign-in. 
-        private async System.Threading.Tasks.Task<bool> AuthenticateAsync()
-        {
-            string message;
-            bool success = false;
-            try
-            {
-                // Change 'MobileService' to the name of your MobileServiceClient instance.
-                // Sign-in using Facebook authentication.
-                user = await App.MobileService
-                    .LoginAsync(MobileServiceAuthenticationProvider.Facebook);
-                message =
-                    string.Format("You are now signed in - {0}", user.UserId);
-
-                success = true;
-            }
-            catch (InvalidOperationException)
-            {
-                message = "You must log in. Login Required";
-            }
-            
-            return success;
-        }
+        
 
         private async void test()
         {
             //List<Tripsss> books =
             //await App.MobileService.GetTable<Tripsss>().Take(100).ToListAsync();
             //return new ObservableCollection<Tripsss>(books);
-
+            
             Tripsss trip = new Tripsss();
             trip.Deadline = DateTime.Now.AddDays(20);
             trip.Name = "yoniklonipony";
@@ -66,17 +45,24 @@ namespace Project.Views
             trip.AddItem(new Item("blabla2"));
             trip.AddItem(new Item("blabla3"));
 
+            Tripsss trip2 = new Tripsss();
+            trip2.Deadline = DateTime.Now.AddDays(10);
+            trip2.Name = "yoniklonipony";
+
+            trip2.AddItem(new Item("blabla4"));
+            trip2.AddItem(new Item("blabla5"));
+            trip2.AddItem(new Item("blabla6"));
+
+            User user = new User();
+            user.Username = "Yoni";
+            user.Password = "kloni";
+            user.AddTrip(trip);
+            user.AddTrip(trip2);
+            await App.MobileService.GetTable<User>().InsertAsync(user);
+            Debug.WriteLine("done");
             foreach (Item item in trip.GetItems())
             {
                 Debug.WriteLine(item.Name);
-            }
-            if (await App.AuthenticateAsync())
-            {
-                Debug.WriteLine("authenticated");
-            }
-            else
-            {
-                Debug.WriteLine("brol marcheert ni");
             }
 
             //Tripsss trip = new Tripsss("bladkla", DateTime.Today.AddDays(18), "sssss");
