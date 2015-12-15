@@ -398,6 +398,9 @@
     <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\README_FIRST.txt">
       <PackagePath>README_FIRST.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Images\vacation.jpg">
+      <PackagePath>Images\vacation.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mathias\Documents\Windows Phone\WindowsPhonePackingApp\Project\Bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>

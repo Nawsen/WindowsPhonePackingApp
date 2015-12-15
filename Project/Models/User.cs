@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace Project.Models
 {
-    class User
+    public class User
     {
         public string Id { get; set; }
         public string Username { set; get; }
@@ -56,7 +56,15 @@ namespace Project.Models
             {
                 TripList = new List<Tripsss>();
             }
-            TripList.Remove(Trip);
+            for (int i = 0; i < TripList.Count; i++)
+            {
+                if (TripList[i].Name.Equals(Trip.Name))
+                {
+                    TripList.RemoveAt(i);
+                }
+            }
+            
+            //TripList.Remove(Trip);
             ConvertToJson(TripList);
         }
 

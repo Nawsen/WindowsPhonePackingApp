@@ -1,0 +1,49 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Project.Views.LoginScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <TextBlock Text="Login" FontSize="30" TextAlignment="Center" 
+                       Style="{StaticResource PhoneTextTitle1Style}"></TextBlock>
+        </StackPanel>
+        
+        
+        <StackPanel x:Name="ContentPanel">
+            <Image Source="../Images/vacation.jpg" Height="489"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Text="Naam:"></TextBlock>
+                <TextBox x:Name="Name" Width="300"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Text="Password:"></TextBlock>
+                <PasswordBox x:Name="Password" Width="300"></PasswordBox>
+            </StackPanel>
+
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="SignUpBtn" Foreground="Wheat" Width="130" Content="Sign Up" Click="SignUpBtn_Click"></Button>
+                <Button x:Name="SignInBtn" Foreground="Wheat" Width="130" Content="Sign In" Click="SignInBtn_Click"></Button>
+            </StackPanel>
+
+        </StackPanel>
+        
+    </Grid>
+
+</phone:PhoneApplicationPage>

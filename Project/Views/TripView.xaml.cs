@@ -14,8 +14,8 @@ namespace Project.Views
 {
     public partial class TripView : UserControl
     {
-        private Models.Trip Trip;
-        public TripView(Models.Trip trip)
+        private Tripsss Trip;
+        public TripView(Tripsss trip)
         {
             InitializeComponent();
             Trip = trip;
@@ -24,7 +24,7 @@ namespace Project.Views
             packingProg.Value = 60;
         }
          
-        public Models.Trip getTrip()
+        public Tripsss getTrip()
         {
             return Trip;
         }

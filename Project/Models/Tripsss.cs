@@ -70,6 +70,23 @@ namespace Project.Models
             ItemList.Add(item);
             ConvertToJson(ItemList);
         }
+        public void AddItems(List<Item> items)
+        {
+            List<Item> ItemList;
+            if (ConvertFromJson() != null)
+            {
+                ItemList = ConvertFromJson();
+            }
+            else
+            {
+                ItemList = new List<Item>();
+            }
+            foreach (Item item in items)
+            {
+                ItemList.Add(item);
+            }
+            ConvertToJson(ItemList);
+        }
         public void DeleteItem(Item item)
         {
             List<Item> ItemList;
@@ -81,10 +98,19 @@ namespace Project.Models
             {
                 ItemList = new List<Item>();
             }
-            ItemList.Remove(item);
+            for (int i = 0; i < ItemList.Count; i++)
+            {
+                Debug.WriteLine("Looping through: " + ItemList[i].Name);
+                if (ItemList[i].Name.Equals(item.Name))
+                {
+                    Debug.WriteLine("Deleted");
+                    ItemList.RemoveAt(i);
+                }
+            }
+            //ItemList.Remove(item);
             ConvertToJson(ItemList);
         }
-
+        
         public List<Item> GetItems()
         {
             return ConvertFromJson();

@@ -17,6 +17,7 @@ namespace Project.Views
 {
     public partial class Main : PhoneApplicationPage
     {
+        private User user;
 
         public async Task<ObservableCollection<Tripsss>> getBooksFromCloudAsync()
         {
@@ -24,12 +25,6 @@ namespace Project.Views
             await App.MobileService.GetTable<Tripsss>().Take(100).ToListAsync();
             return new ObservableCollection<Tripsss>(books);
         }
-        // Define a member variable for storing the signed-in user. 
-        private MobileServiceUser user;
-
-        // Define a method that performs the authentication process
-        // using a Facebook sign-in. 
-        
 
         private async void test()
         {
@@ -37,34 +32,34 @@ namespace Project.Views
             //await App.MobileService.GetTable<Tripsss>().Take(100).ToListAsync();
             //return new ObservableCollection<Tripsss>(books);
             
-            Tripsss trip = new Tripsss();
-            trip.Deadline = DateTime.Now.AddDays(20);
-            trip.Name = "yoniklonipony";
+            //Tripsss trip = new Tripsss();
+            //trip.Deadline = DateTime.Now.AddDays(20);
+            //trip.Name = "yoniklonipony";
 
-            trip.AddItem(new Item("blabla1"));
-            trip.AddItem(new Item("blabla2"));
-            trip.AddItem(new Item("blabla3"));
+            //trip.AddItem(new Item("blabla1"));
+            //trip.AddItem(new Item("blabla2"));
+            //trip.AddItem(new Item("blabla3"));
 
-            Tripsss trip2 = new Tripsss();
-            trip2.Deadline = DateTime.Now.AddDays(10);
-            trip2.Name = "yoniklonipony";
+            //Tripsss trip2 = new Tripsss();
+            //trip2.Deadline = DateTime.Now.AddDays(10);
+            //trip2.Name = "yoniklonipony";
 
-            trip2.AddItem(new Item("blabla4"));
-            trip2.AddItem(new Item("blabla5"));
-            trip2.AddItem(new Item("blabla6"));
+            //trip2.AddItem(new Item("blabla4"));
+            //trip2.AddItem(new Item("blabla5"));
+            //trip2.AddItem(new Item("blabla6"));
 
-            User user = new User();
-            user.Username = "JonasVerplassen";
-            user.Password = "kloni";
+            //User user = new User();
+            //user.Username = "JonasVerplassen";
+            //user.Password = "kloni";
             
-            user.AddTrip(trip);
-            user.AddTrip(trip2);
-            await App.MobileService.GetTable<User>().InsertAsync(user);
-            Debug.WriteLine("done");
-            foreach (Item item in trip.GetItems())
-            {
-                Debug.WriteLine(item.Name);
-            }
+            //user.AddTrip(trip);
+            //user.AddTrip(trip2);
+            //await App.MobileService.GetTable<User>().InsertAsync(user);
+            //Debug.WriteLine("done");
+            //foreach (Item item in trip.GetItems())
+            //{
+            //    Debug.WriteLine(item.Name);
+            //}
 
             //Tripsss trip = new Tripsss("bladkla", DateTime.Today.AddDays(18), "sssss");
             //Debug.WriteLine("start");
@@ -79,19 +74,20 @@ namespace Project.Views
         public Main()
         {
             InitializeComponent();
-            getBooksFromCloudAsync();
-            test();
-            /*
-            tripList.Items.Add(new TripView(new Models.Trip("Naar Mali", new DateTime(2016, 8, 23))));
-            tripList.Items.Add(new TripView(new Models.Trip("Naar Bali", new DateTime(2017, 7, 19))));
-            tripList.Items.Add(new TripView(new Models.Trip("Naar Hali", new DateTime(2018, 7, 19))));
-            tripList.Items.Add(new TripView(new Models.Trip("Naar Kali", new DateTime(2019, 12, 12))));
-            tripList.Items.Add(new TripView(new Models.Trip("Naar Dali", new DateTime(2020, 2, 1))));
-            tripList.Items.Add(new TripView(new Models.Trip("Naar Pali", new DateTime(2015, 5, 9))));
-            tripList.Items.Add(new TripView(new Models.Trip("Naar Qali", new DateTime(2056, 8, 19))));
-            tripList.Items.Add(new TripView(new Models.Trip("Naar Fali", new DateTime(2026, 9, 14))));
-<<<<<<< HEAD
-            tripList.Items.Add(new TripView(new Models.Trip("Nog eens naar Mali", new DateTime(2015, 8, 16))));
+            try
+            {
+                if (NavigationContext.QueryString["update"].Contains("true"))
+                {
+                    update();
+                }
+            }
+            catch
+            {
+            }
+
+            user = (User) PhoneApplicationService.Current.State["user"];
+            insertTrips(user);
+            
 
             ApplicationBar = new ApplicationBar();
 
@@ -106,12 +102,38 @@ namespace Project.Views
             ApplicationBar.Buttons.Add(addTrip);
             addTrip.Click += new EventHandler(addTrip_Click);
         }
+
+        private async void update()
+        {
+            ObservableCollection<User> ocUsers = await UpdateCurrentUser();
+            User updatedUser = ocUsers.ToList().Where(u => u.Username.Equals(user.Username)).First();
+            user = updatedUser;
+            tripList.Items.Clear();
+            insertTrips(user);
+        }
+
+        private void insertTrips(User user)
+        {
+            if (user.GetTrips() != null)
+            {
+                foreach (Tripsss trip in user.GetTrips())
+                {
+                    tripList.Items.Add(new TripView(trip));
+                }
+            }
+        }
+        public async Task<ObservableCollection<User>> UpdateCurrentUser()
+        {
+            List<User> users =
+            await App.MobileService.GetTable<User>().Take(100).ToListAsync();
+            return new ObservableCollection<User>(users);
+        }
+        
         private void addTrip_Click(object sender, EventArgs e)
         {
             NavigationService.Navigate(new Uri("/Views/AddTrip.xaml", UriKind.Relative));
 
-=======
-            tripList.Items.Add(new TripView(new Models.Trip("Nog eens naar Mali", new DateTime(2015, 8, 16))));*/
+            //tripList.Items.Add(new TripView(new Models.Trip("Nog eens naar Mali", new DateTime(2015, 8, 16))));
         }
 
         private void tripList_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -129,18 +151,21 @@ namespace Project.Views
         {
             
             base.OnNavigatedTo(e);
-            Trip t;
+            Tripsss t;
 
             if (PhoneApplicationService.Current.State.ContainsKey("deTripadd"))
             {
-                t = (Trip)PhoneApplicationService.Current.State["deTripadd"];
+                t = (Tripsss)PhoneApplicationService.Current.State["deTripadd"];
                 tripList.Items.Add(new TripView(t));
-            }            //if (PhoneApplicationService.Current.State.ContainsKey("deTripedit"))
+            }
+
+            //if (PhoneApplicationService.Current.State.ContainsKey("deTripedit"))
             //{
             //    t = (Trip)PhoneApplicationService.Current.State["deTripedit"];
             //    tripList.Items.Remove(t);
             //    tripList.Items.Add(new TripView(t));
-            //}
+            //}
+
             //if (PhoneApplicationService.Current.State.ContainsKey("deTripremove"))
             //{
             //    t = (Trip)PhoneApplicationService.Current.State["deTripremove"];
